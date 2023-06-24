@@ -20,6 +20,8 @@ body {
     background-color: var(--drab-dark-brown);
     box-shadow: 5px 5px 0 black;
 }
+
+/*-------------------HEADER SECTION-------------------------*/
 .header {
     height: 33%;
     width: 100%;
@@ -53,6 +55,8 @@ body {
     box-shadow: 3px 3px 0 black;
 
 }
+
+/*-------------------ACTIVITIES SECTION-------------------------*/
 .activities {
     background-color: var(--jordy-blue);
     color: var(--blue);
@@ -92,11 +96,13 @@ body {
     background-size: cover;
 }
 
+/*-------------------GUIDE SECTION-------------------------*/
 .guide {
     height: 33%;
     width: 100%;
     background-color: var(--dark-moss-green);
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -109,15 +115,19 @@ body {
     background-color: var(--paynes-gray);
     color: var(--text);
     padding: 10px 20px;
+    margin-top: 40px;
     border-radius: 8px;
     border: 1px solid black;
     box-shadow: 3px 3px 0 black;
     text-shadow: 0 1px 3px black;
 }
-
 .guide-img {
     width: 200px;
     height: 200px;
     border-radius: 10px;
     border: 1px solid var(--blue);
+}
+.link {
+    color: var(--text);
+    text-decoration: none;
 }
