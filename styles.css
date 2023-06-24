@@ -1,0 +1,123 @@
+:root {
+    --olive: #937F3Cff;
+    --drab-dark-brown: #3C3D13ff;
+    --dark-moss-green: #6B702Cff;
+    --paynes-gray: #4D6C8Dff;
+    --jordy-blue: #94B9E9ff;
+    --text: #F1FAEE;
+    --blue: #1D3557;
+}
+body {
+    width: 750px;
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 4px solid var(--jordy-blue);
+    border-radius: 2px;
+    font-family: 'Kanit', sans-serif;
+    margin: 60px auto;
+    background-color: var(--drab-dark-brown);
+    box-shadow: 5px 5px 0 black;
+}
+.header {
+    height: 33%;
+    width: 100%;
+    background-color: var(--jordy-blue);
+    background-image: url('./assets/plaza-25.png');
+    background-size: cover;
+    color: var(--text);
+}
+.city {
+    margin-top: 150px;
+    text-shadow: 0 1px 3px black;
+    font-size: x-large;
+}
+.slogan {
+    margin-top: 5px;
+    text-shadow: 0 1px 3px black;
+    font-size: large;
+}
+.city-span {
+    padding: 0 20px;
+    background-color: var(--blue);
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 0 black;
+}
+.slogan-span {
+    padding: 5px 30px;
+    background-color: var(--paynes-gray);
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 0 black;
+
+}
+.activities {
+    background-color: var(--jordy-blue);
+    color: var(--blue);
+
+}
+.activities-title {
+    margin: 0;
+    padding: 20px;
+    color: var(--blue);
+}
+.info-container {
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+}
+.info-card {
+    width: 30%;
+}
+.info-img {
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid var(--paynes-gray);
+    box-shadow: 3px 3px 0 black; 
+}
+#info-img1 {
+    background-image: url('./assets/esculturas.png');
+    background-size: cover;
+}
+#info-img2 {
+    background-image: url('./assets/naturaleza.png');
+    background-size: cover;
+}
+#info-img3 {
+    background-image: url('./assets/joda.png');
+    background-size: cover;
+}
+
+.guide {
+    height: 33%;
+    width: 100%;
+    background-color: var(--dark-moss-green);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 400px;
+    background-color: var(--paynes-gray);
+    color: var(--text);
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 0 black;
+    text-shadow: 0 1px 3px black;
+}
+
+.guide-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid var(--blue);
+}
